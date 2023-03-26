@@ -4,19 +4,18 @@ using namespace std;
 
 int main() {
 
-    int t;
-    cin>>t;
-    while(t--)
-    {   
-        int n;
-        cin>>n;
+    int T;
+    cin>>T;
+    while(T--){   
+        int N;
+        cin>>N;
         
         map<int,int> m;
-        int freq;
-        for(int i=0 ; i<n ; i++)
+        int type;
+        for(int i=0 ; i<N ; i++)
         {
-            cin>>freq;
-            m[freq]++;
+            cin>>type;
+            m[type]++;
         }
         
         for(auto it:m)
