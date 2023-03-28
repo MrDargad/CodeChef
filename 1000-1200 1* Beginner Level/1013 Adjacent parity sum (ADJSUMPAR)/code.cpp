@@ -4,13 +4,11 @@ using namespace std;
 int main() {
 	int T;
 	cin>>T;
-	while(T--)
-	{
+	while(T--){
 	    int N;
 	    cin>>N;
 	    int B[N],sum=0;
-	    for(int i=0 ; i<N ; i++)
-	    {
+	    for(int i=0 ; i<N ; i++){
 	        cin>>B[i];
 	        sum+=B[i];
 	    }
@@ -18,8 +16,6 @@ int main() {
 	        cout<<"YES\n";
 	   else
 	    cout<<"NO\n";
-	    
-	    
 	}
 	return 0;
 }
